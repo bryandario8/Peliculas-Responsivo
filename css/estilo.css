@@ -1,0 +1,148 @@
+*{
+	font-family: 'Verdana',sans-serif;    /* 7 */
+}
+
+/*
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+*/
+@media only screen and (max-width: 480px){
+	h1{
+		text-align: center;
+		font-size: 2em!important;
+	}
+
+	h2{
+		font-size: 1.2em!important;
+		margin: 0!important;
+	}
+	b{
+		display: none!important;
+	}
+	h2 + div{
+		font-size: 0.6em!important;
+	}
+	h3{
+		display: none;
+	}
+	.video{
+		display: none!important;
+	}
+	#texto-2, #texto-3, #texto-4{
+		display: none;
+	}
+
+	.segunda,div[class*="reparto-"]{     /* fotos segundas */
+		width: 95%!important;
+		margin: 5px!important;
+		position: relative;
+		bottom: 30px;
+		right: 5px;
+		z-index: -1;
+	}
+	.reparto-1{
+		display: none!important;
+	}
+
+	h4, h4 + div, [class*="reparto-"] div ul, ul li{
+		display: inline!important;
+	}
+
+
+	.primera, #texto-1{    /* fotos y descripcion primera  */
+		width: 47%!important;
+		margin: 5px!important;
+	}
+
+	.caja{margin-right: 2px!important;}    /*no lo hace*/
+										/* en .parte{} ya está hecho  */
+	.parte{    /* cajas segundas */
+		width: 48%!important;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0!important;
+		background-color: transparent;
+		height: 340px;   /* % ? */
+	}
+}
+
+
+
+h1{    /* 1 */
+	font-family: 'Anton', sans-serif;
+	font-size: 4em;
+	color:  #414239;
+}
+
+h2,b{   /* 2 */
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
+	color:  #9e0947;
+	display: inline-block;
+	margin: 5px;
+}
+
+b{     /* Tituloen ingles + anio*/
+	font-size: 1em;
+}
+
+h3, h4{     /* 6 */
+	font-size: 1em;
+	color: #d7d8cb;
+}
+
+#caja{
+	border: 1px dotted #d7d8cb;    /* 4 */
+	margin: 15px;
+}
+
+div[id*="texto-"] p{    /* 5 */
+	text-align: justify;
+}
+
+#fig img{
+	width: 100%;
+}
+
+#fig{
+	width: 15%;  /*150px*/
+}
+
+div[id*="texto-"]{
+	width: 30%;   /*300px*/
+	height: inherit;
+}
+
+div[class*="reparto-"]{
+	width: 15%;    /*200px*/
+}
+
+.video{
+	width: 30%;
+}
+div[id*="texto-"], #fig, div[class*="reparto-"], .video{
+	display: inline-block;
+	margin: 0 15px;
+	vertical-align: top;
+	position: relative;
+
+}
+
+li[famoso="principal"]{    /* 8a */
+	font-weight: bold;
+}
+
+li[famoso="secundario"]{   /* 8b */
+	font-style: italic;
+}
+
+li{               /* 8b */
+	list-style-image: url(https://goo.gl/6hPSSH);
+}
+
+iframe{
+	width: 100%;
+}
+
+img:hover{
+	opacity: 0.8;
+}
