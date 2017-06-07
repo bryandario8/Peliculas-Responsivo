@@ -5,7 +5,7 @@
 /*
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 */
-@media screen and (min-width: 800px) and (max-width: 1024px){
+@media screen and (min-width: 650px) and (max-width: 1280px){
 	h1{
 		text-align: center;
 		font-size: 2em!important;
@@ -42,7 +42,8 @@
 
 	.video{
 		position: relative;
-		top: -18px;
+		top: -22px;
+		vertical-align: top;
 	}
 
 	[class*="reparto-"]{
