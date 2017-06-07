@@ -1,19 +1,20 @@
-*{
-	font-family: 'Verdana',sans-serif;    /* 7 */
-}
 
 /*
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 */
-@media only screen and (max-width: 480px){
+@media screen 
+	and (max-width: 640px)
+	{
 	h1{
 		text-align: center;
 		font-size: 2em!important;
 	}
 
 	h2{
-		font-size: 1.2em!important;
+		font-size: 1em!important;
 		margin: 0!important;
+		position: relative;
+		right: -5px;
 	}
 	b{
 		display: none!important;
@@ -34,10 +35,10 @@
 	.segunda,div[class*="reparto-"]{     /* fotos segundas */
 		width: 95%!important;
 		margin: 5px!important;
-		position: relative;
+		/*position: relative;
 		bottom: 30px;
 		right: 5px;
-		z-index: -1;
+		z-index: -1;*/
 	}
 	.reparto-1{
 		display: none!important;
@@ -49,7 +50,7 @@
 
 
 	.primera, #texto-1{    /* fotos y descripcion primera  */
-		width: 47%!important;
+		width: 45%!important;
 		margin: 5px!important;
 	}
 
@@ -61,7 +62,12 @@
 		vertical-align: top;
 		margin: 0!important;
 		background-color: transparent;
-		height: 340px;   /* % ? */
+		height: 40%;   /* % ? */
+	}
+
+	.parte section article #info{
+		position: relative;
+		top: -30px;
 	}
 }
 
