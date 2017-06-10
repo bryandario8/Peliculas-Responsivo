@@ -2,8 +2,8 @@
 /*
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 */
-@media screen 
-	and (max-width: 330px)
+@media screen
+	and (max-width: 370px)
 	{
 	h1{
 		text-align: center;
@@ -50,12 +50,15 @@
 
 
 	.primera, #texto-1{    /* fotos y descripcion primera  */
-		width: 45%!important;
-		margin: 5px!important;
+		width: 47%!important;
+		margin: 0.5%!important;
 	}
 
-	.caja{margin-right: 2px!important;}    /*no lo hace*/
-										/* en .parte{} ya está hecho  */
+	h1 + div{
+		width: 100%!important;
+		margin: 0.5%!important;
+		}
+
 	.parte{    /* cajas segundas */
 		width: 48%!important;
 		display: inline-block;
