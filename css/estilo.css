@@ -3,7 +3,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 */
 @media screen
-	and (max-width: 370px)
+	and (max-width: 380px)
 	{
 	h1{
 		text-align: center;
@@ -48,7 +48,12 @@
 		display: inline!important;
 	}
 
-
+	li::after{
+		content: ", ";
+	}
+	#rep-final::after{
+		content: "."!important;
+	}
 	.primera, #texto-1{    /* fotos y descripcion primera  */
 		width: 47%!important;
 		margin: 0.5%!important;
@@ -56,7 +61,7 @@
 
 	h1 + div{
 		width: 100%!important;
-		margin: 0.5%!important;
+		margin: 1.5% 0.5%!important;
 		}
 
 	.parte{    /* cajas segundas */
@@ -68,10 +73,12 @@
 		height: 40%;   /* % ? */
 	}
 
-	.parte section article #info{
+	/*.parte section article #info{
 		position: relative;
 		top: -30px;
-	}
+	}*/
+
+
 }
 
 
